@@ -1,53 +1,14 @@
 {
-  "app_name": "FireTV Screensaver Relax",
-  "theme_color": "#FF9800",
-  "background": "https://example.com/bg.jpg",
-
-  "onesignal_app_id": "YOUR-ONESIGNAL-ID",
-  "mintegral": {
-    "appId": "YOUR_MINTEGRAL_APP_ID",
-    "appKey": "YOUR_MINTEGRAL_APP_KEY",
-    "bannerId": "banner_1",
-    "interstitialId": "inter_1",
-    "rewardedId": "rewarded_1",
-    "clicksBeforeAd": 3
-  },
-
-  "iap": {
-    "sku_remove_ads": "remove_ads_sku",
-    "enabled": true
-  },
-
-  "buttons": {
-    "rate_url": "https://www.amazon.com/review/YOUR_APP_ID",
-    "share_text": "Relax with FireTV Screensaver — Enjoy cozy loops!",
-    "more_apps_url": "https://www.amazon.com/yourstore"
-  },
-
-  "videos": [
+  "themeColor": "#000000",
+  "shareText": "Check out this amazing screensaver app!",
+  "rateLink": "https://www.amazon.com/dp/your-app-id",
+  "moreApps": "https://your-other-apps-link.com",
+  "items": [
     {
       "title": "Fireplace",
-      "thumbnail": "https://example.com/fire.jpg",
-      "url": "https://example.com/fire.mp4",
+      "image": "https://yourcdn.com/fireplace.jpg",
+      "url": "https://yourcdn.com/fireplace.mp4",
       "loop": true
-    },
-    {
-      "title": "Ocean Waves",
-      "thumbnail": "https://example.com/ocean.jpg",
-      "url": "https://example.com/ocean.mp4",
-      "loop": true
-    },
-    {
-      "title": "Forest Stream",
-      "thumbnail": "https://example.com/forest.jpg",
-      "url": "https://example.com/forest.mp4",
-      "loop": true
-    },
-    {
-      "title": "City Night Lights",
-      "thumbnail": "https://example.com/city.jpg",
-      "url": "https://example.com/city.mp4",
-      "loop": false
     }
   ]
 }
