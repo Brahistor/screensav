@@ -1,53 +1,44 @@
 {
-  "app_name": "FireTV Screensaver Relax",
-  "theme_color": "#FF9800",
-  "background": "https://example.com/bg.jpg",
-
-  "onesignal_app_id": "YOUR-ONESIGNAL-ID",
-  "mintegral": {
-    "appId": "YOUR_MINTEGRAL_APP_ID",
-    "appKey": "YOUR_MINTEGRAL_APP_KEY",
-    "bannerId": "banner_1",
-    "interstitialId": "inter_1",
-    "rewardedId": "rewarded_1",
-    "clicksBeforeAd": 3
-  },
-
-  "iap": {
-    "sku_remove_ads": "remove_ads_sku",
-    "enabled": true
-  },
-
-  "buttons": {
-    "rate_url": "https://www.amazon.com/review/YOUR_APP_ID",
-    "share_text": "Relax with FireTV Screensaver — Enjoy cozy loops!",
-    "more_apps_url": "https://www.amazon.com/yourstore"
-  },
-
-  "videos": [
+  "categories": [
     {
-      "title": "Fireplace",
-      "thumbnail": "https://example.com/fire.jpg",
-      "url": "https://example.com/fire.mp4",
-      "loop": true
+      "name": "Fireplace",
+      "videos": [
+        {
+          "title": "Cozy Fireplace",
+          "thumb": "https://example.com/fireplace_thumb.jpg",
+          "url": "https://example.com/fireplace_video.mp4"
+        },
+        {
+          "title": "Christmas Fireplace",
+          "thumb": "https://example.com/fireplace2_thumb.jpg",
+          "url": "https://example.com/fireplace2.mp4"
+        }
+      ]
     },
     {
-      "title": "Ocean Waves",
-      "thumbnail": "https://example.com/ocean.jpg",
-      "url": "https://example.com/ocean.mp4",
-      "loop": true
+      "name": "Nature",
+      "videos": [
+        {
+          "title": "Forest Stream",
+          "thumb": "https://example.com/nature_thumb.jpg",
+          "url": "https://example.com/nature.mp4"
+        },
+        {
+          "title": "Waterfall Relax",
+          "thumb": "https://example.com/waterfall_thumb.jpg",
+          "url": "https://example.com/waterfall.mp4"
+        }
+      ]
     },
     {
-      "title": "Forest Stream",
-      "thumbnail": "https://example.com/forest.jpg",
-      "url": "https://example.com/forest.mp4",
-      "loop": true
-    },
-    {
-      "title": "City Night Lights",
-      "thumbnail": "https://example.com/city.jpg",
-      "url": "https://example.com/city.mp4",
-      "loop": false
+      "name": "Ocean",
+      "videos": [
+        {
+          "title": "Calm Ocean",
+          "thumb": "https://example.com/ocean_thumb.jpg",
+          "url": "https://example.com/ocean.mp4"
+        }
+      ]
     }
   ]
 }
